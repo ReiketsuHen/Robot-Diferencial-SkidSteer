@@ -51,7 +51,7 @@ for i in range(0, len(t)-1):
     Pos_t[:, i] = pos.T
     dPos_t[:, i] = dPos.T
     #print(Pos_t[:, i])
-    print(t[i])
+    #print(t[i])
 
     pos = pos + dPos*dt
 
